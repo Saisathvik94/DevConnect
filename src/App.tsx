@@ -19,6 +19,7 @@ import ResetPasswordPage from './pages/ResetPasswordPage.tsx'
 import PublicRoute from './components/PublicRoute.tsx'
 import ProtectedRoute from './components/ProtectedRoute.tsx'
 import ProfilePage from './pages/ProfilePage.tsx'
+import Contributors from './pages/Contributors.tsx'
 
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
           <Route path="/communities" element={<CommunitiesPage />} />
           <Route path="/communities/:id" element={<CommunityPage />} />
           <Route path="/events" element={<EventsPage />} />
+          <Route path="/contributors" element={<Contributors />} />
+
 
           {/* Public Routes */}
           <Route path="/login" element={<PublicRoute><LoginPage /></PublicRoute>} />
