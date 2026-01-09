@@ -111,11 +111,4 @@ https://www.contributor-covenant.org/faq
 
 ---
 
-## Questions?
-
-For questions regarding this Code of Conduct, contact:  
-**📧 devconnect-moderation@example.com**
-
----
-
 **Together, we can build a welcoming and inclusive community for all developers. 🚀**
